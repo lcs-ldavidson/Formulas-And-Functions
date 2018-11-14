@@ -40,6 +40,21 @@ func forSquareWith(sideLength s : Double) -> Double {
  */
 func forRectangleWith(length l : Double, width w : Double) -> Double {
     
-    // Complete this function
-    return 0.0
+    let result = (l * w)
+    return result
+    
 }
+
+
+func forCircleWith(radius r: Double) -> Double {
+    
+    let result = pow((Double.pi * r), 2.0)
+    
+    return result
+}
+
+
+
+
+
+

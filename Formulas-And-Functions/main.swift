@@ -12,3 +12,18 @@ import Foundation
 let a = 7.0
 let areaOfSquare = forSquareWith(sideLength: a)
 print("The area of a square with side length \(a) is \(areaOfSquare)")
+
+
+
+let l = 2.0
+let w = 10.0
+let areaOfRectangle = forRectangleWith(length: l, width: w)
+print("The area of the rectangle is \(areaOfRectangle)")
+
+
+
+
+let r = 3.0
+let areaOfCircle = forCircleWith(radius: r)
+
+print("The area of the circle is \(areaOfCircle)")
