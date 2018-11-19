@@ -48,12 +48,18 @@ func forRectangleWith(length l : Double, width w : Double) -> Double {
 
 func forCircleWith(radius r: Double) -> Double {
     
-    let result = pow((Double.pi * r), 2.0)
+    let result = Double.pi * r * r
     
     return result
 }
 
-
+func forSphereSurfaceArea(radius r: Double) -> Double {
+    
+    let result = 4 * Double.pi * r * r
+    
+    return result
+    
+}
 
 
 
