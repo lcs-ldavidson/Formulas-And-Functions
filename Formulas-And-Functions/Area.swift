@@ -61,6 +61,14 @@ func forSphereSurfaceArea(radius r: Double) -> Double {
     
 }
 
+func forTriangleArea(base b: Double, height h: Double) -> Double {
+    
+    let result = 0.5 * b * h
+    
+    return result
+    
+}
+
 
 
 
